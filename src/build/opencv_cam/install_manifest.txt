@@ -1,6 +1,0 @@
-/root/ros2_ws/src/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
-/root/ros2_ws/src/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
-/root/ros2_ws/src/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
-/root/ros2_ws/src/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
-/root/ros2_ws/src/install/opencv_cam/lib/libopencv_cam_node.so
-/root/ros2_ws/src/install/opencv_cam/lib/libsubscriber_node.so

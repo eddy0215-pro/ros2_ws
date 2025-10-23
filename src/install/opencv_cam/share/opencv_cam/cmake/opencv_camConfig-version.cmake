@@ -1,1 +1,0 @@
-/root/ros2_ws/src/build/opencv_cam/ament_cmake_core/opencv_camConfig-version.cmake
