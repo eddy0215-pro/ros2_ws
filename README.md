@@ -65,3 +65,26 @@ source install/setup.bash
 
 docker start ros2_humble
 docker exec -it ros2_humble bash
+
+
+root@dsm:/# cat ros_entrypoint.sh
+#!/bin/bash
+set -e
+
+# setup ros2 environment
+source "/opt/ros/$ROS_DISTRO/setup.bash" --
+
+# 추가: 워크스페이스 환경 로드
+source "/root/ros2_ws/install/setup.bash"
+
+# motor_node 자동 실행
+ros2 run gpio_node motor_node &
+
+# 초음파 노드만
+ros2 run gpio_node ultrasonic_node &
+
+# camera_node 실행 (백그라운드)
+ros2 run opencv_cam opencv_cam_main --ros-args --param index:=1 &
+
+# 컨테이너 실행 명령 그대로 수행
+exec "$@"
