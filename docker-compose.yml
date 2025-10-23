@@ -1,0 +1,19 @@
+services:
+  ros2_humble:
+    container_name: ros2_humble
+    image: ros:humble-ros-core
+    network_mode: host
+    restart: unless-stopped
+    privileged: true
+
+    devices:
+      - /dev/video0:/dev/video0
+      - /dev/video1:/dev/video1
+      - /dev/video3:/dev/video3
+      - /dev/gpiomem:/dev/gpiomem
+
+    volumes:
+      - ~/ros2_ws:/root/ros2_ws
+      - /sys/class/gpio:/sys/class/gpio
+      - /sys/devices:/sys/devices
+    command: tail -f /dev/null
