@@ -1,0 +1,7 @@
+[0.022s] Invoking command in '/root/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ros2_shared
+[0.058s] [0mCMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.[0m
+[0.059s] [0mCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage[0m
+[0.059s] [0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[0.060s] -- Configuring incomplete, errors occurred!
+[0.060s] See also "/root/ros2_ws/build/ros2_shared/CMakeFiles/CMakeOutput.log".
+[0.063s] Invoked command in '/root/ros2_ws/build/ros2_shared' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ros2_shared

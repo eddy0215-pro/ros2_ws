@@ -1,0 +1,35 @@
+running egg_info
+creating build/gpio_node/gpio_node.egg-info
+writing build/gpio_node/gpio_node.egg-info/PKG-INFO
+writing dependency_links to build/gpio_node/gpio_node.egg-info/dependency_links.txt
+writing entry points to build/gpio_node/gpio_node.egg-info/entry_points.txt
+writing requirements to build/gpio_node/gpio_node.egg-info/requires.txt
+writing top-level names to build/gpio_node/gpio_node.egg-info/top_level.txt
+writing manifest file 'build/gpio_node/gpio_node.egg-info/SOURCES.txt'
+reading manifest file 'build/gpio_node/gpio_node.egg-info/SOURCES.txt'
+writing manifest file 'build/gpio_node/gpio_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/gpio_node/build/gpio_node/build
+creating /root/ros2_ws/src/gpio_node/build/gpio_node/build/lib
+creating /root/ros2_ws/src/gpio_node/build/gpio_node/build/lib/gpio_node
+copying gpio_node/motor_node.py -> /root/ros2_ws/src/gpio_node/build/gpio_node/build/lib/gpio_node
+copying gpio_node/__init__.py -> /root/ros2_ws/src/gpio_node/build/gpio_node/build/lib/gpio_node
+running install
+running install_lib
+creating /root/ros2_ws/src/gpio_node/install/gpio_node/lib/python3.10/site-packages/gpio_node
+copying /root/ros2_ws/src/gpio_node/build/gpio_node/build/lib/gpio_node/motor_node.py -> /root/ros2_ws/src/gpio_node/install/gpio_node/lib/python3.10/site-packages/gpio_node
+copying /root/ros2_ws/src/gpio_node/build/gpio_node/build/lib/gpio_node/__init__.py -> /root/ros2_ws/src/gpio_node/install/gpio_node/lib/python3.10/site-packages/gpio_node
+byte-compiling /root/ros2_ws/src/gpio_node/install/gpio_node/lib/python3.10/site-packages/gpio_node/motor_node.py to motor_node.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/gpio_node/install/gpio_node/lib/python3.10/site-packages/gpio_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/src/gpio_node/install/gpio_node/share/ament_index
+creating /root/ros2_ws/src/gpio_node/install/gpio_node/share/ament_index/resource_index
+creating /root/ros2_ws/src/gpio_node/install/gpio_node/share/ament_index/resource_index/packages
+copying resource/gpio_node -> /root/ros2_ws/src/gpio_node/install/gpio_node/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/gpio_node/install/gpio_node/share/gpio_node
+running install_egg_info
+Copying build/gpio_node/gpio_node.egg-info to /root/ros2_ws/src/gpio_node/install/gpio_node/lib/python3.10/site-packages/gpio_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_node script to /root/ros2_ws/src/gpio_node/install/gpio_node/lib/gpio_node
+writing list of installed files to '/root/ros2_ws/src/gpio_node/build/gpio_node/install.log'

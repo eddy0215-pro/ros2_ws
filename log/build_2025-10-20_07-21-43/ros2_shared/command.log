@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ros2_shared
+Invoked command in '/root/ros2_ws/build/ros2_shared' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ros2_shared

@@ -1,0 +1,33 @@
+[0.002s] Invoking command in '/root/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/opencv_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/opencv_cam
+[0.760s] -- The C compiler identification is GNU 11.4.0
+[1.486s] -- The CXX compiler identification is GNU 11.4.0
+[1.503s] -- Detecting C compiler ABI info
+[2.125s] -- Detecting C compiler ABI info - done
+[2.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.144s] -- Detecting C compile features
+[2.148s] -- Detecting C compile features - done
+[2.154s] -- Detecting CXX compiler ABI info
+[3.078s] -- Detecting CXX compiler ABI info - done
+[3.104s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.105s] -- Detecting CXX compile features
+[3.105s] -- Detecting CXX compile features - done
+[3.125s] -- Configuring incomplete, errors occurred!
+[3.126s] See also "/root/ros2_ws/build/opencv_cam/CMakeFiles/CMakeOutput.log".
+[3.127s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[3.127s]   By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has
+[3.128s]   asked CMake to find a package configuration file provided by "OpenCV", but
+[3.129s]   CMake did not find one.
+[3.130s] 
+[3.130s]   Could not find a package configuration file provided by "OpenCV" with any
+[3.130s]   of the following names:
+[3.130s] 
+[3.131s]     OpenCVConfig.cmake
+[3.131s]     opencv-config.cmake
+[3.131s] 
+[3.131s]   Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+[3.132s]   "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+[3.132s]   provides a separate development package or SDK, be sure it has been
+[3.132s]   installed.
+[3.133s] 
+[3.133s] [0m
+[3.135s] Invoked command in '/root/ros2_ws/build/opencv_cam' returned '1': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/opencv_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/opencv_cam

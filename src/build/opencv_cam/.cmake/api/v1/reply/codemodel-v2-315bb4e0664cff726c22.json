@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b2f58293fd90cc8fd18a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opencv_cam",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ipc_test_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ipc_test_main-1e888f200decb46b4920.json",
+					"name" : "ipc_test_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_cam_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_cam_main-3dd3bc687b194ce1b33a.json",
+					"name" : "opencv_cam_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_cam_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_cam_node-322071bf4b0c9dc650ff.json",
+					"name" : "opencv_cam_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_cam_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_cam_uninstall-2cb17445cd03402926c4.json",
+					"name" : "opencv_cam_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_node-4231cbedfa2714a74098.json",
+					"name" : "subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2f79c9d5183ba8697f7c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/opencv_cam",
+		"source" : "/root/ros2_ws/src/opencv_cam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

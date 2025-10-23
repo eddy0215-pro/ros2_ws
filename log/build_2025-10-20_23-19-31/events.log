@@ -1,0 +1,726 @@
+[0.000000] (-) TimerEvent: {}
+[0.001459] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.001997] (opencv_cam) JobQueued: {'identifier': 'opencv_cam', 'dependencies': OrderedDict([('ros2_shared', '/root/ros2_ws/install/ros2_shared')])}
+[0.002173] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.021368] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.023310] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[0.025490] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/ros2_shared', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/ros2_shared', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/ros2_shared'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098895] (-) TimerEvent: {}
+[0.129590] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.131226] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'install'}
+[0.152347] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/ros2_shared'], 'cwd': '/root/ros2_ws/build/ros2_shared', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/ros2_shared'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.174671] (ros2_shared) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.175212] (ros2_shared) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.175662] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp\n'}
+[0.175994] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp\n'}
+[0.176375] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp\n'}
+[0.176771] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared\n'}
+[0.177442] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared\n'}
+[0.178230] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh\n'}
+[0.179018] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv\n'}
+[0.179636] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.sh\n'}
+[0.180310] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv\n'}
+[0.180876] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.bash\n'}
+[0.181568] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.sh\n'}
+[0.182124] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh\n'}
+[0.183298] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv\n'}
+[0.183853] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/package.dsv\n'}
+[0.202516] (-) TimerEvent: {}
+[0.206938] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared\n'}
+[0.207485] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.207948] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.208388] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake\n'}
+[0.208762] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake\n'}
+[0.209219] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/ros2_shared/share/ros2_shared/package.xml\n'}
+[0.209709] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake\n'}
+[0.214240] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.277278] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[0.281375] (opencv_cam) JobStarted: {'identifier': 'opencv_cam'}
+[0.293154] (opencv_cam) JobProgress: {'identifier': 'opencv_cam', 'progress': 'cmake'}
+[0.294956] (opencv_cam) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/opencv_cam', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/opencv_cam'], 'cwd': '/root/ros2_ws/build/opencv_cam', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/opencv_cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble')]), 'shell': False}
+[0.302710] (-) TimerEvent: {}
+[0.354661] (opencv_cam) StdoutLine: {'line': b'-- Found OpenCV version 4.5.4\n'}
+[0.355827] (opencv_cam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.402814] (-) TimerEvent: {}
+[0.503540] (-) TimerEvent: {}
+[0.606519] (-) TimerEvent: {}
+[0.710472] (-) TimerEvent: {}
+[0.751951] (opencv_cam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.810608] (-) TimerEvent: {}
+[0.911232] (-) TimerEvent: {}
+[0.966210] (opencv_cam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.011423] (-) TimerEvent: {}
+[1.022638] (opencv_cam) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.1.12 (/opt/ros/humble/share/camera_calibration_parsers/cmake)\n'}
+[1.111578] (-) TimerEvent: {}
+[1.125433] (opencv_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.138479] (opencv_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.160971] (opencv_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.195660] (opencv_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.211733] (-) TimerEvent: {}
+[1.242207] (opencv_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.311895] (-) TimerEvent: {}
+[1.365137] (opencv_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.371943] (opencv_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.412040] (-) TimerEvent: {}
+[1.512878] (-) TimerEvent: {}
+[1.574327] (opencv_cam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.613056] (-) TimerEvent: {}
+[1.633693] (opencv_cam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.713237] (-) TimerEvent: {}
+[1.729655] (opencv_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.750079] (opencv_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.813440] (-) TimerEvent: {}
+[1.914387] (-) TimerEvent: {}
+[1.999636] (opencv_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.000327] (opencv_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.014527] (-) TimerEvent: {}
+[2.115263] (-) TimerEvent: {}
+[2.202675] (opencv_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.203162] (opencv_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.215417] (-) TimerEvent: {}
+[2.316072] (-) TimerEvent: {}
+[2.416851] (-) TimerEvent: {}
+[2.469191] (opencv_cam) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[2.489445] (opencv_cam) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.517006] (-) TimerEvent: {}
+[2.547868] (opencv_cam) StdoutLine: {'line': b'-- Found ros2_shared: 0.1.0 (/root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake)\n'}
+[2.617169] (-) TimerEvent: {}
+[2.718451] (-) TimerEvent: {}
+[2.798452] (opencv_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.818627] (-) TimerEvent: {}
+[2.882560] (opencv_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[2.911685] (opencv_cam) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/opencv_cam\n'}
+[2.918825] (-) TimerEvent: {}
+[2.938705] (opencv_cam) CommandEnded: {'returncode': 0}
+[2.939720] (opencv_cam) JobProgress: {'identifier': 'opencv_cam', 'progress': 'build'}
+[2.939829] (opencv_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/opencv_cam', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/opencv_cam', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/opencv_cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble')]), 'shell': False}
+[3.019081] (-) TimerEvent: {}
+[3.064881] (opencv_cam) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/opencv_cam_node.dir/src/opencv_cam_node.cpp.o\x1b[0m\n'}
+[3.065935] (opencv_cam) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[3.119258] (-) TimerEvent: {}
+[3.219944] (-) TimerEvent: {}
+[3.320939] (-) TimerEvent: {}
+[3.421852] (-) TimerEvent: {}
+[3.523675] (-) TimerEvent: {}
+[3.626190] (-) TimerEvent: {}
+[3.727537] (-) TimerEvent: {}
+[3.829705] (-) TimerEvent: {}
+[3.930765] (-) TimerEvent: {}
+[4.033885] (-) TimerEvent: {}
+[4.135974] (-) TimerEvent: {}
+[4.237628] (-) TimerEvent: {}
+[4.338860] (-) TimerEvent: {}
+[4.440747] (-) TimerEvent: {}
+[4.542490] (-) TimerEvent: {}
+[4.646005] (-) TimerEvent: {}
+[4.748421] (-) TimerEvent: {}
+[4.849947] (-) TimerEvent: {}
+[4.951488] (-) TimerEvent: {}
+[5.052663] (-) TimerEvent: {}
+[5.154182] (-) TimerEvent: {}
+[5.255387] (-) TimerEvent: {}
+[5.357029] (-) TimerEvent: {}
+[5.458786] (-) TimerEvent: {}
+[5.560268] (-) TimerEvent: {}
+[5.661944] (-) TimerEvent: {}
+[5.764150] (-) TimerEvent: {}
+[5.865212] (-) TimerEvent: {}
+[5.966439] (-) TimerEvent: {}
+[6.067449] (-) TimerEvent: {}
+[6.168517] (-) TimerEvent: {}
+[6.269735] (-) TimerEvent: {}
+[6.371363] (-) TimerEvent: {}
+[6.472542] (-) TimerEvent: {}
+[6.573763] (-) TimerEvent: {}
+[6.675407] (-) TimerEvent: {}
+[6.776742] (-) TimerEvent: {}
+[6.878254] (-) TimerEvent: {}
+[6.980066] (-) TimerEvent: {}
+[7.081179] (-) TimerEvent: {}
+[7.182502] (-) TimerEvent: {}
+[7.284165] (-) TimerEvent: {}
+[7.385027] (-) TimerEvent: {}
+[7.485832] (-) TimerEvent: {}
+[7.586898] (-) TimerEvent: {}
+[7.687836] (-) TimerEvent: {}
+[7.788624] (-) TimerEvent: {}
+[7.889685] (-) TimerEvent: {}
+[7.990674] (-) TimerEvent: {}
+[8.091981] (-) TimerEvent: {}
+[8.192930] (-) TimerEvent: {}
+[8.293916] (-) TimerEvent: {}
+[8.395075] (-) TimerEvent: {}
+[8.496286] (-) TimerEvent: {}
+[8.597769] (-) TimerEvent: {}
+[8.699080] (-) TimerEvent: {}
+[8.800110] (-) TimerEvent: {}
+[8.901223] (-) TimerEvent: {}
+[9.002237] (-) TimerEvent: {}
+[9.103629] (-) TimerEvent: {}
+[9.204612] (-) TimerEvent: {}
+[9.305793] (-) TimerEvent: {}
+[9.406798] (-) TimerEvent: {}
+[9.507915] (-) TimerEvent: {}
+[9.608818] (-) TimerEvent: {}
+[9.709977] (-) TimerEvent: {}
+[9.811042] (-) TimerEvent: {}
+[9.912185] (-) TimerEvent: {}
+[10.013113] (-) TimerEvent: {}
+[10.114235] (-) TimerEvent: {}
+[10.215241] (-) TimerEvent: {}
+[10.316349] (-) TimerEvent: {}
+[10.417281] (-) TimerEvent: {}
+[10.518440] (-) TimerEvent: {}
+[10.619526] (-) TimerEvent: {}
+[10.720887] (-) TimerEvent: {}
+[10.821820] (-) TimerEvent: {}
+[10.923007] (-) TimerEvent: {}
+[11.023846] (-) TimerEvent: {}
+[11.124886] (-) TimerEvent: {}
+[11.226039] (-) TimerEvent: {}
+[11.327100] (-) TimerEvent: {}
+[11.428022] (-) TimerEvent: {}
+[11.529230] (-) TimerEvent: {}
+[11.630221] (-) TimerEvent: {}
+[11.731383] (-) TimerEvent: {}
+[11.832348] (-) TimerEvent: {}
+[11.933479] (-) TimerEvent: {}
+[12.034312] (-) TimerEvent: {}
+[12.135484] (-) TimerEvent: {}
+[12.236440] (-) TimerEvent: {}
+[12.337536] (-) TimerEvent: {}
+[12.438478] (-) TimerEvent: {}
+[12.539637] (-) TimerEvent: {}
+[12.640637] (-) TimerEvent: {}
+[12.741797] (-) TimerEvent: {}
+[12.842847] (-) TimerEvent: {}
+[12.944181] (-) TimerEvent: {}
+[13.045349] (-) TimerEvent: {}
+[13.146246] (-) TimerEvent: {}
+[13.247602] (-) TimerEvent: {}
+[13.348916] (-) TimerEvent: {}
+[13.450079] (-) TimerEvent: {}
+[13.551164] (-) TimerEvent: {}
+[13.652138] (-) TimerEvent: {}
+[13.753213] (-) TimerEvent: {}
+[13.854201] (-) TimerEvent: {}
+[13.955375] (-) TimerEvent: {}
+[14.056311] (-) TimerEvent: {}
+[14.157299] (-) TimerEvent: {}
+[14.258790] (-) TimerEvent: {}
+[14.359702] (-) TimerEvent: {}
+[14.460764] (-) TimerEvent: {}
+[14.561744] (-) TimerEvent: {}
+[14.662935] (-) TimerEvent: {}
+[14.763908] (-) TimerEvent: {}
+[14.864880] (-) TimerEvent: {}
+[14.965969] (-) TimerEvent: {}
+[15.067417] (-) TimerEvent: {}
+[15.168177] (-) TimerEvent: {}
+[15.269225] (-) TimerEvent: {}
+[15.370282] (-) TimerEvent: {}
+[15.471473] (-) TimerEvent: {}
+[15.572811] (-) TimerEvent: {}
+[15.674049] (-) TimerEvent: {}
+[15.778502] (-) TimerEvent: {}
+[15.879542] (-) TimerEvent: {}
+[15.980422] (-) TimerEvent: {}
+[16.081748] (-) TimerEvent: {}
+[16.183202] (-) TimerEvent: {}
+[16.284014] (-) TimerEvent: {}
+[16.384917] (-) TimerEvent: {}
+[16.485871] (-) TimerEvent: {}
+[16.587038] (-) TimerEvent: {}
+[16.688353] (-) TimerEvent: {}
+[16.789238] (-) TimerEvent: {}
+[16.890171] (-) TimerEvent: {}
+[16.991009] (-) TimerEvent: {}
+[17.091824] (-) TimerEvent: {}
+[17.192633] (-) TimerEvent: {}
+[17.293457] (-) TimerEvent: {}
+[17.394519] (-) TimerEvent: {}
+[17.498884] (-) TimerEvent: {}
+[17.599782] (-) TimerEvent: {}
+[17.700593] (-) TimerEvent: {}
+[17.801374] (-) TimerEvent: {}
+[17.902170] (-) TimerEvent: {}
+[18.003067] (-) TimerEvent: {}
+[18.103874] (-) TimerEvent: {}
+[18.204690] (-) TimerEvent: {}
+[18.305526] (-) TimerEvent: {}
+[18.406327] (-) TimerEvent: {}
+[18.507225] (-) TimerEvent: {}
+[18.608116] (-) TimerEvent: {}
+[18.708959] (-) TimerEvent: {}
+[18.809857] (-) TimerEvent: {}
+[18.910889] (-) TimerEvent: {}
+[19.011730] (-) TimerEvent: {}
+[19.112554] (-) TimerEvent: {}
+[19.213432] (-) TimerEvent: {}
+[19.319083] (-) TimerEvent: {}
+[19.419960] (-) TimerEvent: {}
+[19.520835] (-) TimerEvent: {}
+[19.621796] (-) TimerEvent: {}
+[19.722608] (-) TimerEvent: {}
+[19.826449] (-) TimerEvent: {}
+[19.927623] (-) TimerEvent: {}
+[20.028442] (-) TimerEvent: {}
+[20.129281] (-) TimerEvent: {}
+[20.230415] (-) TimerEvent: {}
+[20.331806] (-) TimerEvent: {}
+[20.432828] (-) TimerEvent: {}
+[20.534059] (-) TimerEvent: {}
+[20.635514] (-) TimerEvent: {}
+[20.736932] (-) TimerEvent: {}
+[20.838163] (-) TimerEvent: {}
+[20.939447] (-) TimerEvent: {}
+[21.040385] (-) TimerEvent: {}
+[21.141702] (-) TimerEvent: {}
+[21.243452] (-) TimerEvent: {}
+[21.344765] (-) TimerEvent: {}
+[21.446764] (-) TimerEvent: {}
+[21.548804] (-) TimerEvent: {}
+[21.650474] (-) TimerEvent: {}
+[21.751952] (-) TimerEvent: {}
+[21.853677] (-) TimerEvent: {}
+[21.956448] (-) TimerEvent: {}
+[22.058464] (-) TimerEvent: {}
+[22.159986] (-) TimerEvent: {}
+[22.262774] (-) TimerEvent: {}
+[22.364310] (-) TimerEvent: {}
+[22.465509] (-) TimerEvent: {}
+[22.568892] (-) TimerEvent: {}
+[22.670701] (-) TimerEvent: {}
+[22.772601] (-) TimerEvent: {}
+[22.873954] (-) TimerEvent: {}
+[22.974970] (-) TimerEvent: {}
+[23.076389] (-) TimerEvent: {}
+[23.178665] (-) TimerEvent: {}
+[23.280360] (-) TimerEvent: {}
+[23.381813] (-) TimerEvent: {}
+[23.482880] (-) TimerEvent: {}
+[23.584318] (-) TimerEvent: {}
+[23.685370] (-) TimerEvent: {}
+[23.787300] (-) TimerEvent: {}
+[23.888643] (-) TimerEvent: {}
+[23.989755] (-) TimerEvent: {}
+[24.091398] (-) TimerEvent: {}
+[24.194516] (-) TimerEvent: {}
+[24.299180] (-) TimerEvent: {}
+[24.401188] (-) TimerEvent: {}
+[24.503341] (-) TimerEvent: {}
+[24.605080] (-) TimerEvent: {}
+[24.706990] (-) TimerEvent: {}
+[24.809746] (-) TimerEvent: {}
+[24.911012] (-) TimerEvent: {}
+[25.012884] (-) TimerEvent: {}
+[25.115583] (-) TimerEvent: {}
+[25.217062] (-) TimerEvent: {}
+[25.319069] (-) TimerEvent: {}
+[25.421707] (-) TimerEvent: {}
+[25.523167] (-) TimerEvent: {}
+[25.625526] (-) TimerEvent: {}
+[25.727111] (-) TimerEvent: {}
+[25.828448] (-) TimerEvent: {}
+[25.929696] (-) TimerEvent: {}
+[26.030815] (-) TimerEvent: {}
+[26.132556] (-) TimerEvent: {}
+[26.233425] (-) TimerEvent: {}
+[26.334386] (-) TimerEvent: {}
+[26.435735] (-) TimerEvent: {}
+[26.536731] (-) TimerEvent: {}
+[26.638327] (-) TimerEvent: {}
+[26.739246] (-) TimerEvent: {}
+[26.840001] (-) TimerEvent: {}
+[26.940884] (-) TimerEvent: {}
+[27.041535] (-) TimerEvent: {}
+[27.142432] (-) TimerEvent: {}
+[27.243211] (-) TimerEvent: {}
+[27.344589] (-) TimerEvent: {}
+[27.445597] (-) TimerEvent: {}
+[27.546500] (-) TimerEvent: {}
+[27.647292] (-) TimerEvent: {}
+[27.748200] (-) TimerEvent: {}
+[27.849214] (-) TimerEvent: {}
+[27.949860] (-) TimerEvent: {}
+[28.050808] (-) TimerEvent: {}
+[28.151838] (-) TimerEvent: {}
+[28.252599] (-) TimerEvent: {}
+[28.353504] (-) TimerEvent: {}
+[28.454287] (-) TimerEvent: {}
+[28.555344] (-) TimerEvent: {}
+[28.656672] (-) TimerEvent: {}
+[28.757959] (-) TimerEvent: {}
+[28.859497] (-) TimerEvent: {}
+[28.960563] (-) TimerEvent: {}
+[29.062511] (-) TimerEvent: {}
+[29.163212] (-) TimerEvent: {}
+[29.263920] (-) TimerEvent: {}
+[29.364704] (-) TimerEvent: {}
+[29.465458] (-) TimerEvent: {}
+[29.566278] (-) TimerEvent: {}
+[29.667227] (-) TimerEvent: {}
+[29.768138] (-) TimerEvent: {}
+[29.868838] (-) TimerEvent: {}
+[29.918890] (opencv_cam) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libopencv_cam_node.so\x1b[0m\n'}
+[29.969046] (-) TimerEvent: {}
+[30.075146] (-) TimerEvent: {}
+[30.176315] (-) TimerEvent: {}
+[30.277291] (-) TimerEvent: {}
+[30.378059] (-) TimerEvent: {}
+[30.479117] (-) TimerEvent: {}
+[30.579974] (-) TimerEvent: {}
+[30.682470] (-) TimerEvent: {}
+[30.783495] (-) TimerEvent: {}
+[30.884267] (-) TimerEvent: {}
+[30.985261] (-) TimerEvent: {}
+[31.086126] (-) TimerEvent: {}
+[31.186910] (-) TimerEvent: {}
+[31.288130] (-) TimerEvent: {}
+[31.389026] (-) TimerEvent: {}
+[31.464362] (opencv_cam) StdoutLine: {'line': b'[ 37%] Built target opencv_cam_node\n'}
+[31.489232] (-) TimerEvent: {}
+[31.521392] (opencv_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/opencv_cam_main.dir/src/opencv_cam_main.cpp.o\x1b[0m\n'}
+[31.589404] (-) TimerEvent: {}
+[31.695258] (-) TimerEvent: {}
+[31.796657] (-) TimerEvent: {}
+[31.898263] (-) TimerEvent: {}
+[31.999607] (-) TimerEvent: {}
+[32.100306] (-) TimerEvent: {}
+[32.201681] (-) TimerEvent: {}
+[32.302618] (-) TimerEvent: {}
+[32.403462] (-) TimerEvent: {}
+[32.504621] (-) TimerEvent: {}
+[32.605422] (-) TimerEvent: {}
+[32.706458] (-) TimerEvent: {}
+[32.807508] (-) TimerEvent: {}
+[32.908580] (-) TimerEvent: {}
+[33.009620] (-) TimerEvent: {}
+[33.110617] (-) TimerEvent: {}
+[33.211479] (-) TimerEvent: {}
+[33.312460] (-) TimerEvent: {}
+[33.413807] (-) TimerEvent: {}
+[33.514881] (-) TimerEvent: {}
+[33.616175] (-) TimerEvent: {}
+[33.717103] (-) TimerEvent: {}
+[33.818011] (-) TimerEvent: {}
+[33.919205] (-) TimerEvent: {}
+[34.021237] (-) TimerEvent: {}
+[34.122411] (-) TimerEvent: {}
+[34.223797] (-) TimerEvent: {}
+[34.324957] (-) TimerEvent: {}
+[34.425856] (-) TimerEvent: {}
+[34.527033] (-) TimerEvent: {}
+[34.628190] (-) TimerEvent: {}
+[34.729379] (-) TimerEvent: {}
+[35.635930] (-) TimerEvent: {}
+[35.737035] (-) TimerEvent: {}
+[35.838239] (-) TimerEvent: {}
+[35.939293] (-) TimerEvent: {}
+[36.040457] (-) TimerEvent: {}
+[36.142016] (-) TimerEvent: {}
+[36.243007] (-) TimerEvent: {}
+[36.344227] (-) TimerEvent: {}
+[36.445112] (-) TimerEvent: {}
+[36.545932] (-) TimerEvent: {}
+[36.646649] (-) TimerEvent: {}
+[36.747350] (-) TimerEvent: {}
+[36.848080] (-) TimerEvent: {}
+[36.949259] (-) TimerEvent: {}
+[37.050290] (-) TimerEvent: {}
+[37.151585] (-) TimerEvent: {}
+[37.252281] (-) TimerEvent: {}
+[37.353239] (-) TimerEvent: {}
+[37.453874] (-) TimerEvent: {}
+[37.555488] (-) TimerEvent: {}
+[37.656155] (-) TimerEvent: {}
+[37.757762] (-) TimerEvent: {}
+[37.858548] (-) TimerEvent: {}
+[37.959201] (-) TimerEvent: {}
+[38.060151] (-) TimerEvent: {}
+[38.161112] (-) TimerEvent: {}
+[38.262138] (-) TimerEvent: {}
+[38.362992] (-) TimerEvent: {}
+[38.463908] (-) TimerEvent: {}
+[38.564809] (-) TimerEvent: {}
+[38.666053] (-) TimerEvent: {}
+[38.767014] (-) TimerEvent: {}
+[38.868186] (-) TimerEvent: {}
+[38.969063] (-) TimerEvent: {}
+[39.070067] (-) TimerEvent: {}
+[39.171170] (-) TimerEvent: {}
+[39.272239] (-) TimerEvent: {}
+[39.373258] (-) TimerEvent: {}
+[39.474221] (-) TimerEvent: {}
+[39.575361] (-) TimerEvent: {}
+[39.676228] (-) TimerEvent: {}
+[39.777160] (-) TimerEvent: {}
+[39.878058] (-) TimerEvent: {}
+[39.979670] (-) TimerEvent: {}
+[40.080567] (-) TimerEvent: {}
+[40.181790] (-) TimerEvent: {}
+[40.282936] (-) TimerEvent: {}
+[40.383782] (-) TimerEvent: {}
+[40.484734] (-) TimerEvent: {}
+[40.585837] (-) TimerEvent: {}
+[40.686805] (-) TimerEvent: {}
+[41.462506] (-) TimerEvent: {}
+[41.563220] (-) TimerEvent: {}
+[41.664136] (-) TimerEvent: {}
+[41.765015] (-) TimerEvent: {}
+[41.865920] (-) TimerEvent: {}
+[41.966964] (-) TimerEvent: {}
+[42.067934] (-) TimerEvent: {}
+[42.169016] (-) TimerEvent: {}
+[42.269957] (-) TimerEvent: {}
+[42.370997] (-) TimerEvent: {}
+[42.471863] (-) TimerEvent: {}
+[42.572725] (-) TimerEvent: {}
+[42.673834] (-) TimerEvent: {}
+[42.779264] (-) TimerEvent: {}
+[42.882502] (-) TimerEvent: {}
+[42.983334] (-) TimerEvent: {}
+[43.085112] (-) TimerEvent: {}
+[43.187041] (-) TimerEvent: {}
+[43.288800] (-) TimerEvent: {}
+[43.390382] (-) TimerEvent: {}
+[43.491657] (-) TimerEvent: {}
+[43.593334] (-) TimerEvent: {}
+[43.695073] (-) TimerEvent: {}
+[43.796657] (-) TimerEvent: {}
+[43.897978] (-) TimerEvent: {}
+[43.999177] (-) TimerEvent: {}
+[44.100609] (-) TimerEvent: {}
+[44.201799] (-) TimerEvent: {}
+[44.303401] (-) TimerEvent: {}
+[44.404595] (-) TimerEvent: {}
+[44.506418] (-) TimerEvent: {}
+[44.607409] (-) TimerEvent: {}
+[44.709214] (-) TimerEvent: {}
+[44.745405] (opencv_cam) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable opencv_cam_main\x1b[0m\n'}
+[44.809515] (-) TimerEvent: {}
+[44.910964] (-) TimerEvent: {}
+[45.012277] (-) TimerEvent: {}
+[45.099917] (opencv_cam) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libsubscriber_node.so\x1b[0m\n'}
+[45.112493] (-) TimerEvent: {}
+[45.214058] (-) TimerEvent: {}
+[45.315799] (-) TimerEvent: {}
+[45.417585] (-) TimerEvent: {}
+[45.519067] (-) TimerEvent: {}
+[45.621038] (-) TimerEvent: {}
+[45.722982] (-) TimerEvent: {}
+[45.824964] (-) TimerEvent: {}
+[45.926775] (-) TimerEvent: {}
+[46.028050] (-) TimerEvent: {}
+[46.130194] (-) TimerEvent: {}
+[46.232533] (-) TimerEvent: {}
+[46.333395] (-) TimerEvent: {}
+[46.434649] (-) TimerEvent: {}
+[46.535704] (-) TimerEvent: {}
+[46.636609] (-) TimerEvent: {}
+[46.737768] (-) TimerEvent: {}
+[46.840368] (-) TimerEvent: {}
+[46.943615] (-) TimerEvent: {}
+[47.044619] (-) TimerEvent: {}
+[47.097219] (opencv_cam) StdoutLine: {'line': b'[ 75%] Built target subscriber_node\n'}
+[47.144852] (-) TimerEvent: {}
+[47.157272] (opencv_cam) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o\x1b[0m\n'}
+[47.219296] (opencv_cam) StdoutLine: {'line': b'[ 87%] Built target opencv_cam_main\n'}
+[47.245016] (-) TimerEvent: {}
+[47.345837] (-) TimerEvent: {}
+[47.446505] (-) TimerEvent: {}
+[47.547107] (-) TimerEvent: {}
+[47.649035] (-) TimerEvent: {}
+[47.749881] (-) TimerEvent: {}
+[47.850675] (-) TimerEvent: {}
+[47.951496] (-) TimerEvent: {}
+[48.052646] (-) TimerEvent: {}
+[48.153515] (-) TimerEvent: {}
+[48.254518] (-) TimerEvent: {}
+[48.355851] (-) TimerEvent: {}
+[48.458608] (-) TimerEvent: {}
+[48.559831] (-) TimerEvent: {}
+[48.661577] (-) TimerEvent: {}
+[48.764102] (-) TimerEvent: {}
+[48.864995] (-) TimerEvent: {}
+[48.965995] (-) TimerEvent: {}
+[49.067247] (-) TimerEvent: {}
+[49.168229] (-) TimerEvent: {}
+[49.269576] (-) TimerEvent: {}
+[49.370893] (-) TimerEvent: {}
+[49.472625] (-) TimerEvent: {}
+[49.573844] (-) TimerEvent: {}
+[49.674879] (-) TimerEvent: {}
+[49.778524] (-) TimerEvent: {}
+[49.879236] (-) TimerEvent: {}
+[49.979945] (-) TimerEvent: {}
+[50.080666] (-) TimerEvent: {}
+[50.181726] (-) TimerEvent: {}
+[50.282611] (-) TimerEvent: {}
+[50.383529] (-) TimerEvent: {}
+[50.484532] (-) TimerEvent: {}
+[50.585459] (-) TimerEvent: {}
+[50.686644] (-) TimerEvent: {}
+[50.787684] (-) TimerEvent: {}
+[50.888626] (-) TimerEvent: {}
+[50.989665] (-) TimerEvent: {}
+[51.090555] (-) TimerEvent: {}
+[51.191641] (-) TimerEvent: {}
+[51.292440] (-) TimerEvent: {}
+[51.395015] (-) TimerEvent: {}
+[51.496083] (-) TimerEvent: {}
+[51.597049] (-) TimerEvent: {}
+[51.698047] (-) TimerEvent: {}
+[51.798961] (-) TimerEvent: {}
+[51.899932] (-) TimerEvent: {}
+[52.000943] (-) TimerEvent: {}
+[52.101781] (-) TimerEvent: {}
+[52.202701] (-) TimerEvent: {}
+[52.303517] (-) TimerEvent: {}
+[52.404434] (-) TimerEvent: {}
+[52.505463] (-) TimerEvent: {}
+[52.606484] (-) TimerEvent: {}
+[52.707440] (-) TimerEvent: {}
+[52.808368] (-) TimerEvent: {}
+[52.909392] (-) TimerEvent: {}
+[53.010232] (-) TimerEvent: {}
+[53.111101] (-) TimerEvent: {}
+[53.212100] (-) TimerEvent: {}
+[53.312934] (-) TimerEvent: {}
+[53.413930] (-) TimerEvent: {}
+[53.514745] (-) TimerEvent: {}
+[53.615790] (-) TimerEvent: {}
+[53.716748] (-) TimerEvent: {}
+[53.817646] (-) TimerEvent: {}
+[53.918735] (-) TimerEvent: {}
+[54.019776] (-) TimerEvent: {}
+[54.120693] (-) TimerEvent: {}
+[54.221614] (-) TimerEvent: {}
+[54.322653] (-) TimerEvent: {}
+[54.423489] (-) TimerEvent: {}
+[54.524519] (-) TimerEvent: {}
+[54.625387] (-) TimerEvent: {}
+[54.726248] (-) TimerEvent: {}
+[54.827244] (-) TimerEvent: {}
+[54.927964] (-) TimerEvent: {}
+[55.028861] (-) TimerEvent: {}
+[55.129797] (-) TimerEvent: {}
+[55.230576] (-) TimerEvent: {}
+[55.331357] (-) TimerEvent: {}
+[55.432134] (-) TimerEvent: {}
+[55.532925] (-) TimerEvent: {}
+[55.633645] (-) TimerEvent: {}
+[55.734511] (-) TimerEvent: {}
+[55.835218] (-) TimerEvent: {}
+[55.936050] (-) TimerEvent: {}
+[56.036854] (-) TimerEvent: {}
+[56.137654] (-) TimerEvent: {}
+[56.238640] (-) TimerEvent: {}
+[56.339436] (-) TimerEvent: {}
+[56.440378] (-) TimerEvent: {}
+[56.541501] (-) TimerEvent: {}
+[56.642398] (-) TimerEvent: {}
+[56.743104] (-) TimerEvent: {}
+[56.843817] (-) TimerEvent: {}
+[56.944528] (-) TimerEvent: {}
+[57.045237] (-) TimerEvent: {}
+[57.145957] (-) TimerEvent: {}
+[57.246672] (-) TimerEvent: {}
+[57.347335] (-) TimerEvent: {}
+[57.448070] (-) TimerEvent: {}
+[57.548857] (-) TimerEvent: {}
+[57.649746] (-) TimerEvent: {}
+[57.750493] (-) TimerEvent: {}
+[57.851198] (-) TimerEvent: {}
+[57.951906] (-) TimerEvent: {}
+[58.052607] (-) TimerEvent: {}
+[58.153471] (-) TimerEvent: {}
+[58.254233] (-) TimerEvent: {}
+[58.355310] (-) TimerEvent: {}
+[58.456069] (-) TimerEvent: {}
+[58.556987] (-) TimerEvent: {}
+[58.657683] (-) TimerEvent: {}
+[58.758459] (-) TimerEvent: {}
+[58.859167] (-) TimerEvent: {}
+[58.959864] (-) TimerEvent: {}
+[59.060563] (-) TimerEvent: {}
+[59.161265] (-) TimerEvent: {}
+[59.261958] (-) TimerEvent: {}
+[59.362839] (-) TimerEvent: {}
+[59.463563] (-) TimerEvent: {}
+[59.564287] (-) TimerEvent: {}
+[59.664959] (-) TimerEvent: {}
+[59.765644] (-) TimerEvent: {}
+[59.821670] (opencv_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ipc_test_main\x1b[0m\n'}
+[59.865858] (-) TimerEvent: {}
+[59.967217] (-) TimerEvent: {}
+[60.069644] (-) TimerEvent: {}
+[60.171375] (-) TimerEvent: {}
+[60.272792] (-) TimerEvent: {}
+[60.373965] (-) TimerEvent: {}
+[60.474935] (-) TimerEvent: {}
+[60.576660] (-) TimerEvent: {}
+[60.678225] (-) TimerEvent: {}
+[60.779036] (-) TimerEvent: {}
+[60.881102] (-) TimerEvent: {}
+[60.982630] (-) TimerEvent: {}
+[61.083928] (-) TimerEvent: {}
+[61.185391] (-) TimerEvent: {}
+[61.286147] (-) TimerEvent: {}
+[61.387530] (-) TimerEvent: {}
+[61.488720] (-) TimerEvent: {}
+[61.589444] (-) TimerEvent: {}
+[61.690490] (-) TimerEvent: {}
+[61.791606] (-) TimerEvent: {}
+[61.892878] (-) TimerEvent: {}
+[61.994181] (-) TimerEvent: {}
+[62.094933] (-) TimerEvent: {}
+[62.173720] (opencv_cam) StdoutLine: {'line': b'[100%] Built target ipc_test_main\n'}
+[62.195104] (-) TimerEvent: {}
+[62.200024] (opencv_cam) CommandEnded: {'returncode': 0}
+[62.202054] (opencv_cam) JobProgress: {'identifier': 'opencv_cam', 'progress': 'install'}
+[62.202898] (opencv_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/opencv_cam'], 'cwd': '/root/ros2_ws/build/opencv_cam', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/opencv_cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble')]), 'shell': False}
+[62.223566] (opencv_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[62.224863] (opencv_cam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[62.225647] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh\n'}
+[62.247174] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv\n'}
+[62.268732] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam\n'}
+[62.290522] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam\n'}
+[62.295266] (-) TimerEvent: {}
+[62.311599] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh\n'}
+[62.332913] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv\n'}
+[62.354281] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh\n'}
+[62.375557] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv\n'}
+[62.395471] (-) TimerEvent: {}
+[62.397023] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash\n'}
+[62.418532] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh\n'}
+[62.439664] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh\n'}
+[62.460770] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv\n'}
+[62.481798] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv\n'}
+[62.495677] (-) TimerEvent: {}
+[62.503532] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam\n'}
+[62.525004] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam\n'}
+[62.546255] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[62.567163] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[62.588199] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[62.595870] (-) TimerEvent: {}
+[62.609983] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[62.631924] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake\n'}
+[62.653107] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake\n'}
+[62.674237] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/package.xml\n'}
+[62.695894] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main\n'}
+[62.696355] (-) TimerEvent: {}
+[62.717240] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main\n'}
+[62.738959] (opencv_cam) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py\n'}
+[62.760039] (opencv_cam) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake\n'}
+[62.760621] (opencv_cam) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake\n'}
+[62.761111] (opencv_cam) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake\n'}
+[62.761575] (opencv_cam) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake\n'}
+[62.762101] (opencv_cam) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so\n'}
+[62.768925] (opencv_cam) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""\n'}
+[62.769514] (opencv_cam) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so\n'}
+[62.785535] (opencv_cam) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""\n'}
+[62.789826] (opencv_cam) CommandEnded: {'returncode': 0}
+[62.796903] (-) TimerEvent: {}
+[62.849616] (opencv_cam) JobEnded: {'identifier': 'opencv_cam', 'rc': 0}
+[62.855352] (-) EventReactorShutdown: {}

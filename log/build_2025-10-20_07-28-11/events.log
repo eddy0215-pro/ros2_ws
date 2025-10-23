@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.002030] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.002239] (opencv_cam) JobQueued: {'identifier': 'opencv_cam', 'dependencies': OrderedDict([('ros2_shared', '/root/ros2_ws/install/ros2_shared')])}
+[0.002321] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.098838] (-) TimerEvent: {}
+[0.163423] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.164716] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/ros2_shared', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ros2_shared'], 'cwd': '/root/ros2_ws/build/ros2_shared', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/ros2_shared'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.201837] (-) TimerEvent: {}
+[0.302495] (-) TimerEvent: {}
+[0.403065] (-) TimerEvent: {}
+[0.503595] (-) TimerEvent: {}
+[0.604131] (-) TimerEvent: {}
+[0.704658] (-) TimerEvent: {}
+[0.805335] (-) TimerEvent: {}
+[0.833819] (ros2_shared) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.905471] (-) TimerEvent: {}
+[1.006091] (-) TimerEvent: {}
+[1.106633] (-) TimerEvent: {}
+[1.207170] (-) TimerEvent: {}
+[1.309939] (-) TimerEvent: {}
+[1.380792] (ros2_shared) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.399342] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.410086] (-) TimerEvent: {}
+[1.513862] (-) TimerEvent: {}
+[1.617861] (-) TimerEvent: {}
+[1.717984] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.718438] (-) TimerEvent: {}
+[1.736664] (ros2_shared) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.737878] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.741968] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.749945] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.818611] (-) TimerEvent: {}
+[1.921900] (-) TimerEvent: {}
+[2.025841] (-) TimerEvent: {}
+[2.126670] (-) TimerEvent: {}
+[2.157286] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.181978] (ros2_shared) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.182450] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.182727] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.187098] (ros2_shared) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.226794] (-) TimerEvent: {}
+[2.327655] (-) TimerEvent: {}
+[2.428475] (-) TimerEvent: {}
+[2.529338] (-) TimerEvent: {}
+[2.583071] (ros2_shared) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.629495] (-) TimerEvent: {}
+[2.730588] (-) TimerEvent: {}
+[2.798360] (ros2_shared) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.830765] (-) TimerEvent: {}
+[2.840187] (ros2_shared) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.922355] (ros2_shared) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.930902] (-) TimerEvent: {}
+[2.933628] (ros2_shared) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.954303] (ros2_shared) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.987255] (ros2_shared) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.030496] (ros2_shared) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.030947] (-) TimerEvent: {}
+[3.131745] (-) TimerEvent: {}
+[3.142625] (ros2_shared) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.148094] (ros2_shared) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.231917] (-) TimerEvent: {}
+[3.233004] (ros2_shared) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.267708] (ros2_shared) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.325900] (ros2_shared) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.332068] (-) TimerEvent: {}
+[3.343477] (ros2_shared) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.432211] (-) TimerEvent: {}
+[3.532839] (-) TimerEvent: {}
+[3.633542] (-) TimerEvent: {}
+[3.734123] (-) TimerEvent: {}
+[3.834852] (-) TimerEvent: {}
+[3.935846] (-) TimerEvent: {}
+[4.037753] (-) TimerEvent: {}
+[4.041050] (ros2_shared) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.042229] (ros2_shared) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.137886] (-) TimerEvent: {}
+[4.238551] (-) TimerEvent: {}
+[4.339313] (-) TimerEvent: {}
+[4.390728] (ros2_shared) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.393555] (ros2_shared) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.439470] (-) TimerEvent: {}
+[4.540152] (-) TimerEvent: {}
+[4.641367] (-) TimerEvent: {}
+[4.745860] (-) TimerEvent: {}
+[4.774259] (ros2_shared) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.833902] (ros2_shared) StdoutLine: {'line': b'-- Generating done\n'}
+[4.845995] (-) TimerEvent: {}
+[4.946770] (-) TimerEvent: {}
+[5.014712] (ros2_shared) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/ros2_shared\n'}
+[5.039929] (ros2_shared) CommandEnded: {'returncode': 0}
+[5.042806] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[5.043039] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/ros2_shared', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/ros2_shared', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/ros2_shared'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.046945] (-) TimerEvent: {}
+[5.139069] (ros2_shared) CommandEnded: {'returncode': 0}
+[5.140525] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'install'}
+[5.147148] (-) TimerEvent: {}
+[5.161814] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/ros2_shared'], 'cwd': '/root/ros2_ws/build/ros2_shared', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/ros2_shared'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.181323] (ros2_shared) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.184730] (ros2_shared) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.185266] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp\n'}
+[5.204725] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp\n'}
+[5.225411] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp\n'}
+[5.247093] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared\n'}
+[5.247571] (-) TimerEvent: {}
+[5.269102] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared\n'}
+[5.290634] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh\n'}
+[5.311738] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv\n'}
+[5.332753] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.sh\n'}
+[5.347760] (-) TimerEvent: {}
+[5.354676] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv\n'}
+[5.375968] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.bash\n'}
+[5.396744] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.sh\n'}
+[5.418251] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh\n'}
+[5.439807] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv\n'}
+[5.447935] (-) TimerEvent: {}
+[5.460456] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/package.dsv\n'}
+[5.481826] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared\n'}
+[5.503316] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.524184] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.545244] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake\n'}
+[5.548100] (-) TimerEvent: {}
+[5.566774] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake\n'}
+[5.587608] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/package.xml\n'}
+[5.608563] (ros2_shared) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake\n'}
+[5.613820] (ros2_shared) CommandEnded: {'returncode': 0}
+[5.648207] (-) TimerEvent: {}
+[5.748833] (-) TimerEvent: {}
+[5.783169] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[5.809709] (opencv_cam) JobStarted: {'identifier': 'opencv_cam'}
+[5.810038] (opencv_cam) JobProgress: {'identifier': 'opencv_cam', 'progress': 'cmake'}
+[5.810183] (opencv_cam) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/opencv_cam', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/opencv_cam'], 'cwd': '/root/ros2_ws/build/opencv_cam', 'env': OrderedDict([('HOSTNAME', 'dsm'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/opencv_cam'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/opencv_cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/ros2_shared:/opt/ros/humble')]), 'shell': False}
+[5.849042] (-) TimerEvent: {}
+[5.949729] (-) TimerEvent: {}
+[6.050297] (-) TimerEvent: {}
+[6.150793] (-) TimerEvent: {}
+[6.251389] (-) TimerEvent: {}
+[6.352103] (-) TimerEvent: {}
+[6.452751] (-) TimerEvent: {}
+[6.553544] (-) TimerEvent: {}
+[6.569314] (opencv_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.653716] (-) TimerEvent: {}
+[6.754440] (-) TimerEvent: {}
+[6.855553] (-) TimerEvent: {}
+[6.956131] (-) TimerEvent: {}
+[7.056685] (-) TimerEvent: {}
+[7.157215] (-) TimerEvent: {}
+[7.257732] (-) TimerEvent: {}
+[7.295468] (opencv_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.312604] (opencv_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.357882] (-) TimerEvent: {}
+[7.458467] (-) TimerEvent: {}
+[7.559271] (-) TimerEvent: {}
+[7.659803] (-) TimerEvent: {}
+[7.760374] (-) TimerEvent: {}
+[7.861007] (-) TimerEvent: {}
+[7.933990] (opencv_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.952829] (opencv_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.953861] (opencv_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.957940] (opencv_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.961132] (-) TimerEvent: {}
+[7.963736] (opencv_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.061291] (-) TimerEvent: {}
+[8.161999] (-) TimerEvent: {}
+[8.262660] (-) TimerEvent: {}
+[8.363278] (-) TimerEvent: {}
+[8.463970] (-) TimerEvent: {}
+[8.564734] (-) TimerEvent: {}
+[8.665302] (-) TimerEvent: {}
+[8.765963] (-) TimerEvent: {}
+[8.869842] (-) TimerEvent: {}
+[8.887869] (opencv_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.913991] (opencv_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.914423] (opencv_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.914673] (opencv_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.934436] (opencv_cam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.935186] (opencv_cam) StdoutLine: {'line': b'See also "/root/ros2_ws/build/opencv_cam/CMakeFiles/CMakeOutput.log".\n'}
+[8.935900] (opencv_cam) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[8.936747] (opencv_cam) StderrLine: {'line': b'  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[8.937418] (opencv_cam) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "OpenCV", but\n'}
+[8.938462] (opencv_cam) StderrLine: {'line': b'  CMake did not find one.\n'}
+[8.939178] (opencv_cam) StderrLine: {'line': b'\n'}
+[8.939486] (opencv_cam) StderrLine: {'line': b'  Could not find a package configuration file provided by "OpenCV" with any\n'}
+[8.939739] (opencv_cam) StderrLine: {'line': b'  of the following names:\n'}
+[8.939985] (opencv_cam) StderrLine: {'line': b'\n'}
+[8.940226] (opencv_cam) StderrLine: {'line': b'    OpenCVConfig.cmake\n'}
+[8.940466] (opencv_cam) StderrLine: {'line': b'    opencv-config.cmake\n'}
+[8.940726] (opencv_cam) StderrLine: {'line': b'\n'}
+[8.940989] (opencv_cam) StderrLine: {'line': b'  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set\n'}
+[8.941262] (opencv_cam) StderrLine: {'line': b'  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"\n'}
+[8.941547] (opencv_cam) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[8.942003] (opencv_cam) StderrLine: {'line': b'  installed.\n'}
+[8.942356] (opencv_cam) StderrLine: {'line': b'\n'}
+[8.942581] (opencv_cam) StderrLine: {'line': b'\x1b[0m\n'}
+[8.944271] (opencv_cam) CommandEnded: {'returncode': 1}
+[8.969991] (-) TimerEvent: {}
+[8.986178] (opencv_cam) JobEnded: {'identifier': 'opencv_cam', 'rc': 1}
+[8.997359] (-) EventReactorShutdown: {}

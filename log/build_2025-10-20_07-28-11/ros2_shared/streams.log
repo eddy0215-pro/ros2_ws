@@ -1,0 +1,63 @@
+[0.165s] Invoking command in '/root/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ros2_shared
+[0.832s] -- The C compiler identification is GNU 11.4.0
+[1.379s] -- The CXX compiler identification is GNU 11.4.0
+[1.397s] -- Detecting C compiler ABI info
+[1.716s] -- Detecting C compiler ABI info - done
+[1.735s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.736s] -- Detecting C compile features
+[1.740s] -- Detecting C compile features - done
+[1.748s] -- Detecting CXX compiler ABI info
+[2.155s] -- Detecting CXX compiler ABI info - done
+[2.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.180s] -- Detecting CXX compile features
+[2.181s] -- Detecting CXX compile features - done
+[2.185s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.581s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.796s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.838s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.920s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.932s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.952s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.141s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.146s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.231s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.266s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.341s] -- Looking for pthread.h
+[4.039s] -- Looking for pthread.h - found
+[4.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.389s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.392s] -- Found Threads: TRUE  
+[4.772s] -- Configuring done
+[4.832s] -- Generating done
+[5.013s] -- Build files have been written to: /root/ros2_ws/build/ros2_shared
+[5.039s] Invoked command in '/root/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ros2_shared
+[5.042s] Invoking command in '/root/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/ros2_shared -- -j4 -l4
+[5.137s] Invoked command in '/root/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/ros2_shared -- -j4 -l4
+[5.162s] Invoking command in '/root/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/ros2_shared
+[5.179s] -- Install configuration: ""
+[5.183s] -- Execute custom install script
+[5.183s] -- Symlinking: /root/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[5.203s] -- Symlinking: /root/ros2_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[5.223s] -- Symlinking: /root/ros2_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[5.245s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[5.267s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[5.289s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[5.310s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[5.331s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[5.353s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[5.374s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[5.395s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[5.416s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[5.438s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[5.458s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[5.480s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[5.501s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake
+[5.522s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.543s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[5.565s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[5.586s] -- Symlinking: /root/ros2_ws/install/ros2_shared/share/ros2_shared/package.xml
+[5.607s] -- Installing: /root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake
+[5.612s] Invoked command in '/root/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/ros2_shared

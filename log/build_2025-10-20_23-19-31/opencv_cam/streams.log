@@ -1,0 +1,79 @@
+[0.016s] Invoking command in '/root/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/opencv_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/opencv_cam
+[0.074s] -- Found OpenCV version 4.5.4
+[0.075s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.685s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.742s] -- Found camera_calibration_parsers: 3.1.12 (/opt/ros/humble/share/camera_calibration_parsers/cmake)
+[0.844s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.857s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.880s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.915s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.091s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.293s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.353s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.469s] -- Looking for pthread.h
+[1.719s] -- Looking for pthread.h - found
+[1.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.922s] -- Found Threads: TRUE  
+[2.188s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[2.208s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.267s] -- Found ros2_shared: 0.1.0 (/root/ros2_ws/install/ros2_shared/share/ros2_shared/cmake)
+[2.517s] -- Configuring done
+[2.601s] -- Generating done
+[2.631s] -- Build files have been written to: /root/ros2_ws/build/opencv_cam
+[2.658s] Invoked command in '/root/ros2_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/opencv_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/opencv_cam
+[2.659s] Invoking command in '/root/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/opencv_cam -- -j4 -l4
+[2.784s] [ 25%] [32mBuilding CXX object CMakeFiles/opencv_cam_node.dir/src/opencv_cam_node.cpp.o[0m
+[2.785s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[29.638s] [ 37%] [32m[1mLinking CXX shared library libopencv_cam_node.so[0m
+[31.183s] [ 37%] Built target opencv_cam_node
+[31.240s] [ 50%] [32mBuilding CXX object CMakeFiles/opencv_cam_main.dir/src/opencv_cam_main.cpp.o[0m
+[44.464s] [ 62%] [32m[1mLinking CXX executable opencv_cam_main[0m
+[44.819s] [ 75%] [32m[1mLinking CXX shared library libsubscriber_node.so[0m
+[46.816s] [ 75%] Built target subscriber_node
+[46.876s] [ 87%] [32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o[0m
+[46.938s] [ 87%] Built target opencv_cam_main
+[59.541s] [100%] [32m[1mLinking CXX executable ipc_test_main[0m
+[61.893s] [100%] Built target ipc_test_main
+[61.919s] Invoked command in '/root/ros2_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/opencv_cam -- -j4 -l4
+[61.922s] Invoking command in '/root/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/opencv_cam
+[61.942s] -- Install configuration: ""
+[61.944s] -- Execute custom install script
+[61.944s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+[61.966s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+[61.988s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+[62.009s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+[62.031s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+[62.052s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+[62.073s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+[62.094s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+[62.116s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+[62.137s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+[62.159s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+[62.180s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+[62.201s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv
+[62.222s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+[62.244s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+[62.265s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.286s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.307s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_targets-extras.cmake
+[62.329s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[62.351s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+[62.372s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+[62.393s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/package.xml
+[62.415s] -- Symlinking: /root/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+[62.436s] -- Symlinking: /root/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+[62.458s] -- Symlinking: /root/ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py
+[62.479s] -- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+[62.479s] -- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+[62.480s] -- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+[62.480s] -- Installing: /root/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+[62.481s] -- Installing: /root/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so
+[62.488s] -- Set runtime path of "/root/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""
+[62.488s] -- Installing: /root/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so
+[62.504s] -- Set runtime path of "/root/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""
+[62.510s] Invoked command in '/root/ros2_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ros2_shared:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/opencv_cam
