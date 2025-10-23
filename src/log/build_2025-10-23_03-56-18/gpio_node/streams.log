@@ -1,0 +1,41 @@
+[4.124s] Invoking command in '/root/ros2_ws/src/gpio_node': PYTHONPATH=/root/ros2_ws/src/build/gpio_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gpio_node build --build-base /root/ros2_ws/src/build/gpio_node/build install --record /root/ros2_ws/src/build/gpio_node/install.log --single-version-externally-managed install_data
+[6.127s] running egg_info
+[6.137s] creating ../build/gpio_node/gpio_node.egg-info
+[6.139s] writing ../build/gpio_node/gpio_node.egg-info/PKG-INFO
+[6.141s] writing dependency_links to ../build/gpio_node/gpio_node.egg-info/dependency_links.txt
+[6.144s] writing entry points to ../build/gpio_node/gpio_node.egg-info/entry_points.txt
+[6.145s] writing requirements to ../build/gpio_node/gpio_node.egg-info/requires.txt
+[6.146s] writing top-level names to ../build/gpio_node/gpio_node.egg-info/top_level.txt
+[6.147s] writing manifest file '../build/gpio_node/gpio_node.egg-info/SOURCES.txt'
+[6.158s] reading manifest file '../build/gpio_node/gpio_node.egg-info/SOURCES.txt'
+[6.170s] writing manifest file '../build/gpio_node/gpio_node.egg-info/SOURCES.txt'
+[6.172s] running build
+[6.174s] running build_py
+[6.175s] creating /root/ros2_ws/src/build/gpio_node/build
+[6.176s] creating /root/ros2_ws/src/build/gpio_node/build/lib
+[6.178s] creating /root/ros2_ws/src/build/gpio_node/build/lib/gpio_node
+[6.179s] copying gpio_node/ultrasonic_node.py -> /root/ros2_ws/src/build/gpio_node/build/lib/gpio_node
+[6.181s] copying gpio_node/motor_node.py -> /root/ros2_ws/src/build/gpio_node/build/lib/gpio_node
+[6.182s] copying gpio_node/__init__.py -> /root/ros2_ws/src/build/gpio_node/build/lib/gpio_node
+[6.182s] running install
+[6.184s] running install_lib
+[6.190s] creating /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node
+[6.192s] copying /root/ros2_ws/src/build/gpio_node/build/lib/gpio_node/ultrasonic_node.py -> /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node
+[6.193s] copying /root/ros2_ws/src/build/gpio_node/build/lib/gpio_node/motor_node.py -> /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node
+[6.194s] copying /root/ros2_ws/src/build/gpio_node/build/lib/gpio_node/__init__.py -> /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node
+[6.198s] byte-compiling /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node/ultrasonic_node.py to ultrasonic_node.cpython-310.pyc
+[6.206s] byte-compiling /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node/motor_node.py to motor_node.cpython-310.pyc
+[6.217s] byte-compiling /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node/__init__.py to __init__.cpython-310.pyc
+[6.220s] running install_data
+[6.223s] creating /root/ros2_ws/src/install/gpio_node/share/ament_index
+[6.225s] creating /root/ros2_ws/src/install/gpio_node/share/ament_index/resource_index
+[6.225s] creating /root/ros2_ws/src/install/gpio_node/share/ament_index/resource_index/packages
+[6.226s] copying resource/gpio_node -> /root/ros2_ws/src/install/gpio_node/share/ament_index/resource_index/packages
+[6.227s] copying package.xml -> /root/ros2_ws/src/install/gpio_node/share/gpio_node
+[6.228s] running install_egg_info
+[6.248s] Copying ../build/gpio_node/gpio_node.egg-info to /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio_node-0.0.0-py3.10.egg-info
+[6.255s] running install_scripts
+[6.450s] Installing motor_node script to /root/ros2_ws/src/install/gpio_node/lib/gpio_node
+[6.451s] Installing ultrasonic_node script to /root/ros2_ws/src/install/gpio_node/lib/gpio_node
+[6.454s] writing list of installed files to '/root/ros2_ws/src/build/gpio_node/install.log'
+[6.688s] Invoked command in '/root/ros2_ws/src/gpio_node' returned '0': PYTHONPATH=/root/ros2_ws/src/build/gpio_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gpio_node build --build-base /root/ros2_ws/src/build/gpio_node/build install --record /root/ros2_ws/src/build/gpio_node/install.log --single-version-externally-managed install_data

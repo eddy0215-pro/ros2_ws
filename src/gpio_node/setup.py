@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'motor_node = gpio_node.motor_node:main',
+            'ultrasonic_node = gpio_node.ultrasonic_node:main',
         ],
     },
 )

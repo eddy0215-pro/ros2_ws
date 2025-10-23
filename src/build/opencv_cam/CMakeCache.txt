@@ -332,7 +332,7 @@ ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
 
 //The directory containing a CMake configuration file for camera_calibration_parsers.
-camera_calibration_parsers_DIR:PATH=camera_calibration_parsers_DIR-NOTFOUND
+camera_calibration_parsers_DIR:PATH=/opt/ros/humble/share/camera_calibration_parsers/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake
@@ -718,7 +718,7 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-aarch64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
 //Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

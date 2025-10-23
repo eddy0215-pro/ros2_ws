@@ -1,0 +1,20 @@
+[5.220s] Invoking command in '/root/ros2_ws/src/build/gpio_node': PYTHONPATH=/root/ros2_ws/src/build/gpio_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/build/gpio_node/build --no-deps symlink_data --force
+[7.195s] running develop
+[7.626s] running egg_info
+[7.627s] writing gpio_node.egg-info/PKG-INFO
+[7.631s] writing dependency_links to gpio_node.egg-info/dependency_links.txt
+[7.632s] writing entry points to gpio_node.egg-info/entry_points.txt
+[7.633s] writing requirements to gpio_node.egg-info/requires.txt
+[7.635s] writing top-level names to gpio_node.egg-info/top_level.txt
+[7.645s] reading manifest file 'gpio_node.egg-info/SOURCES.txt'
+[7.836s] writing manifest file 'gpio_node.egg-info/SOURCES.txt'
+[7.846s] running build_ext
+[7.848s] Creating /root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages/gpio-node.egg-link (link to .)
+[7.852s] Installing motor_node script to /root/ros2_ws/src/install/gpio_node/lib/gpio_node
+[7.852s] Installing ultrasonic_node script to /root/ros2_ws/src/install/gpio_node/lib/gpio_node
+[7.853s] 
+[7.854s] Installed /root/ros2_ws/src/build/gpio_node
+[7.854s] running symlink_data
+[7.856s] symbolically linking /root/ros2_ws/src/build/gpio_node/resource/gpio_node -> /root/ros2_ws/src/install/gpio_node/share/ament_index/resource_index/packages
+[7.857s] symbolically linking /root/ros2_ws/src/build/gpio_node/package.xml -> /root/ros2_ws/src/install/gpio_node/share/gpio_node
+[8.101s] Invoked command in '/root/ros2_ws/src/build/gpio_node' returned '0': PYTHONPATH=/root/ros2_ws/src/build/gpio_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/gpio_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/build/gpio_node/build --no-deps symlink_data --force

@@ -309,3 +309,72 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/opencv_cam/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/opencv_cam/environment")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/opencv_cam/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/opencv_cam/environment")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/opencv_cam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/opencv_cam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/opencv_cam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/opencv_cam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/opencv_cam/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/opencv_cam/environment")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/opencv_cam/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/opencv_cam/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/opencv_cam/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/opencv_cam/environment")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/opencv_cam/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/opencv_cam/environment")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/opencv_cam")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/opencv_cam")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/opencv_cam")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/opencv_cam")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/opencv_cam")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/opencv_cam")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/opencv_cam")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/opencv_cam")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/opencv_cam")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/opencv_cam")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/packages/opencv_cam" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/packages/opencv_cam" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/opencv_cam" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/opencv_cam" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/opencv_cam/cmake")
+
+# install(FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_core/opencv_camConfig.cmake" "/root/ros2_ws/src/build/opencv_cam/ament_cmake_core/opencv_camConfig-version.cmake" "DESTINATION" "share/opencv_cam/cmake")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/build/opencv_cam/ament_cmake_core/opencv_camConfig.cmake" "/root/ros2_ws/src/build/opencv_cam/ament_cmake_core/opencv_camConfig-version.cmake" "DESTINATION" "share/opencv_cam/cmake")
+
+# install(FILES "/root/ros2_ws/src/opencv_cam/package.xml" "DESTINATION" "share/opencv_cam")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/opencv_cam" FILES "/root/ros2_ws/src/opencv_cam/package.xml" "DESTINATION" "share/opencv_cam")
+
+# install("TARGETS" "opencv_cam_main" "ipc_test_main" "DESTINATION" "lib/opencv_cam")
+include("/root/ros2_ws/src/build/opencv_cam/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "launch" "DESTINATION" "share/opencv_cam")
+ament_cmake_symlink_install_directory("/root/ros2_ws/src/opencv_cam" DIRECTORY "launch" "DESTINATION" "share/opencv_cam")
