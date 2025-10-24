@@ -59,17 +59,17 @@ apt install -y python3-colcon-common-extensions python3-opencv python3-rpi.gpio 
 
 apt install -y ros-humble-camera-calibration-parsers ros-humble-camera-info-manager
 
-cd ~/ros2_ws
-colcon build
-source install/setup.bash
+cd ~/ros2_ws  
+colcon build  
+source install/setup.bash  
 
-docker start ros2_humble
-docker exec -it ros2_humble bash
+docker start ros2_humble  
+docker exec -it ros2_humble bash  
 
 
-root@dsm:/# cat ros_entrypoint.sh
-#!/bin/bash
-set -e
+root@dsm:/# cat ros_entrypoint.sh  
+#!/bin/bash  
+set -e  
 
 # setup ros2 environment
 source "/opt/ros/$ROS_DISTRO/setup.bash" --
