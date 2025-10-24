@@ -52,7 +52,7 @@ docker run -it \
   ros:humble-ros-core \
   bash
 
-apt update
+apt update  
 apt install -y python3-colcon-common-extensions python3-opencv python3-rpi.gpio \
                python3-pip ros-humble-cv-bridge ros-humble-image-transport \
                ros-humble-rclpy
