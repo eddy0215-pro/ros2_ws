@@ -4,16 +4,22 @@ services:
     image: ros:humble-ros-core
     network_mode: host
     restart: unless-stopped
-    privileged: true
+
+    privileged: true   # ✅ 하드웨어 접근을 전면 허용 (GPIO 등)
 
     devices:
       - /dev/video0:/dev/video0
       - /dev/video1:/dev/video1
       - /dev/video3:/dev/video3
-      - /dev/gpiomem:/dev/gpiomem
+      - /dev/gpiomem:/dev/gpiomem   # ✅ RPi.GPIO 필수 장치
+      - /dev/gpiochip0:/dev/gpiochip0  # ✅ libgpiod 기반 접근 시 사용
 
     volumes:
       - ~/ros2_ws:/root/ros2_ws
-      - /sys/class/gpio:/sys/class/gpio
-      - /sys/devices:/sys/devices
+      - /sys:/sys                      # ✅ GPIO sysfs 접근
+      - /boot:/boot                    # ✅ RPi.GPIO가 기기 확인할 때 필요할 수 있음
+
+    environment:
+      - PYTHONUNBUFFERED=1
+
     command: tail -f /dev/null
