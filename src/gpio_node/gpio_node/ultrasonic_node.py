@@ -1,70 +1,90 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from std_srvs.srv import Trigger
+from sensor_msgs.msg import Range
 import RPi.GPIO as GPIO
 import time
+from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 
 # ==================== 초음파 센서 핀 ====================
-Tr = 11
-Ec = 8
+TRIG_PIN = 11
+ECHO_PIN = 8
 
 class UltrasonicNode(Node):
     def __init__(self):
         super().__init__('ultrasonic_node')
 
-        # GPIO 초기화 (한 번만)
+        # GPIO 초기화
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BCM)
-        GPIO.setup(Tr, GPIO.OUT, initial=GPIO.LOW)
-        GPIO.setup(Ec, GPIO.IN)
+        GPIO.setup(TRIG_PIN, GPIO.OUT, initial=GPIO.LOW)
+        GPIO.setup(ECHO_PIN, GPIO.IN)
 
-        # Trigger 서비스 등록
-        self.srv = self.create_service(Trigger, 'ultrasonic/measure', self.handle_measure)
-        self.get_logger().info("Ultrasonic Service ready! Call 'ultrasonic/measure' to get distance.")
+        # QoS 설정: 센서용 안정적인 전달
+        qos_profile = QoSProfile(
+            reliability=ReliabilityPolicy.RELIABLE,
+            history=HistoryPolicy.KEEP_LAST,
+            depth=10
+        )
 
-    def check_distance(self, timeout=0.02):
-        """센서 1회 측정"""
-        GPIO.output(Tr, GPIO.HIGH)
+        # 퍼블리셔
+        self.publisher = self.create_publisher(Range, '/ultrasonic/front', qos_profile)
+
+        # 센서 정보
+        self.field_of_view = 0.1
+        self.min_range = 0.02
+        self.max_range = 4.0
+
+        # 0.1초 타이머 (10Hz)
+        self.timer = self.create_timer(1/3, self.publish_distance)
+        self.get_logger().info("Ultrasonic Node started, publishing on /ultrasonic/front")
+
+    def measure_distance(self, timeout=0.02):
+        """초음파 1회 측정"""
+        GPIO.output(TRIG_PIN, GPIO.HIGH)
         time.sleep(0.000015)
-        GPIO.output(Tr, GPIO.LOW)
+        GPIO.output(TRIG_PIN, GPIO.LOW)
 
         start_time = time.time()
-        # Echo 상승 대기
-        while not GPIO.input(Ec):
+        while not GPIO.input(ECHO_PIN):
             if time.time() - start_time > timeout:
-                raise TimeoutError("Echo signal not received")
+                raise TimeoutError("Echo not received")
         t1 = time.time()
 
-        # Echo 하강 대기
-        while GPIO.input(Ec):
+        while GPIO.input(ECHO_PIN):
             if time.time() - t1 > timeout:
-                raise TimeoutError("Echo signal stuck HIGH")
+                raise TimeoutError("Echo stuck HIGH")
         t2 = time.time()
 
         distance_m = (t2 - t1) * 340 / 2
         return distance_m
 
-    def handle_measure(self, request, response):
-        """서비스 요청이 들어올 때만 측정"""
+    def publish_distance(self):
         try:
-            distance = self.check_distance()
-            distance_cm = distance * 100
-            response.success = True
-            response.message = f"{distance_cm:.1f} cm"
-            # 로그 출력 최소화
-            self.get_logger().info(f"Measured distance: {distance_cm:.1f} cm")
+            distance = self.measure_distance()
+            # 범위 제한
+            distance = max(self.min_range, min(distance, self.max_range))
+
+            # 새 메시지 생성
+            msg = Range()
+            msg.header.stamp = self.get_clock().now().to_msg()
+            msg.header.frame_id = "ultrasonic_front"
+            msg.radiation_type = Range.ULTRASOUND
+            msg.field_of_view = self.field_of_view
+            msg.min_range = self.min_range
+            msg.max_range = self.max_range
+            msg.range = distance
+  
+            self.publisher.publish(msg)
+            self.get_logger().info(f"Distance: {distance*100:.1f} cm")
         except Exception as e:
-            response.success = False
-            response.message = f"Error: {e}"
             self.get_logger().error(f"Distance measurement failed: {e}")
-        return response
 
 def main(args=None):
     rclpy.init(args=args)
     node = UltrasonicNode()
     try:
-        rclpy.spin(node)  # 요청 들어올 때만 handle_measure 실행
+        rclpy.spin(node)
     except KeyboardInterrupt:
         pass
     finally:
